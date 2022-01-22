@@ -92,3 +92,8 @@ li:hover {
   font-size: 25px;
   margin: 20px;
 }
+
+.links {
+  text-decoration: none;
+  color: black;
+}

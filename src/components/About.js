@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 export default function About() {
     return (
         <Container>
-            <Card border="info" className='bg-dark text-white'>
+            <Card border="secondary" className='bg-dark text-white'>
                 <Card.Header className="blockquote mb-0 card-body bg-secondary">About Us</Card.Header>
                 <Card.Body>
                     <Card.Text>

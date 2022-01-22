@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup'
 
 
 export default function Packages(props) {
-    const displayPackages = props.packages.map((eachPackage) => 
+    const displayPackages = props.packages.map((eachPackage) =>
         <ListGroup.Item className='bg-dark text-white'>{eachPackage}</ListGroup.Item>)
 
     return (
@@ -17,7 +17,7 @@ export default function Packages(props) {
                     </Card.Text>
                 </Card.Body>
                 <ListGroup>
-                    {displayPackages} 
+                    {displayPackages}
                 </ListGroup>
             </Card>
         </Container>
